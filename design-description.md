@@ -17,8 +17,8 @@ When choosing to enter current job details, a user will: a. Be shown a user inte
 ## Answer 2
 
 This is realized by the MainMenu.enterOrEditCurrentJob() method which does the following:
-If there is a CurrentJob object in the system, then this method would call the CurrentJob.editInfo() method which shows an interface with the current details of the current job in editable text boxes and allows the user to edit the details and save the change.
-If there isn’t a CurrentJob object in the system, then this method would show an interface with empty editable text boxes which allows the user to enter information, and a CurrentJob object will be created with the provided details. Then this CurrentJob object will be assigned to the MainMenu.currentJob attribute. 
+- If there is a CurrentJob object in the system, then this method would call the CurrentJob.editInfo() method which shows an interface with the current details of the current job in editable text boxes and allows the user to edit the details and save the change.
+- If there isn’t a CurrentJob object in the system, then this method would show an interface with empty editable text boxes which allows the user to enter information, and a CurrentJob object will be created with the provided details. Then this CurrentJob object will be assigned to the MainMenu.currentJob attribute. 
 
 ## Requirement 3
 
@@ -35,8 +35,8 @@ When choosing to enter job offers, a user will: a. Be shown a user interface to 
 ## Answer 4
 
 This is realized by the MainMenu.enterJobOffer() method which does the following:
-It provides an user interface with editable text boxes allowing the user to enter the details.
-A new JobOffer object is created using the provided details and is then added to the job offer array in the MainMenu object.
+- It provides an user interface with editable text boxes allowing the user to enter the details.
+- A new JobOffer object is created using the provided details and is then added to the job offer array in the MainMenu object.
 
 
 ## Requirement 5
@@ -76,8 +76,8 @@ When choosing to compare job offers, a user will: a. Be shown a list of job offe
 ## Answer 8
 
 This is realized by the MainMenu.showRankedJobs() method which does the following: 
-It calculates a score for each Job object using the provided formula and updates their score attributes.
-It sorts all the Job objects by their scores in descending order and displays the titles and company names on the user interface. 
+- It calculates a score for each Job object using the provided formula and updates their score attributes.
+- It sorts all the Job objects by their scores in descending order and displays the titles and company names on the user interface. 
 
 ## Requirement 9
 
