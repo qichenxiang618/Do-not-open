@@ -106,10 +106,13 @@ The user interface has 2 buttons allowing the user to perform another comparison
 ## Requirement 12
 
 When ranking jobs, a job’s score is computed as the weighted sum of:
-AYS + AYB + (RSUA / 4) + RELO + (PCH * AYS / 260)
-where: AYS = yearly salary adjusted for cost of living AYB = yearly bonus adjusted for cost of living RSU = restricted stock unit award RELO = relocation stipend PCH = personal choice holidays
+AYS + AYB + (RSUA / 4) + RELO + (PCH * AYS / 260) where: 
+- AYS = yearly salary adjusted for cost of living 
+- AYB = yearly bonus adjusted for cost of living 
+- RSU = restricted stock unit award RELO = relocation stipend 
+- PCH = personal choice holidays
 For example, if the weights are 2 for the yearly salary, 2 for relocation stipend and 1 for all other factors, the score would be computed as:
-2/7 * AYS + 1/7 * AYB + 1/7 * (RSUA / 4) + 2/7 * RELO + 1/7 * (PCH * AYS / 260)
+- 2/7 * AYS + 1/7 * AYB + 1/7 * (RSUA / 4) + 2/7 * RELO + 1/7 * (PCH * AYS / 260)
 
 ## Answer 12
 
