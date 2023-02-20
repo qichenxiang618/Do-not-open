@@ -1,1 +1,1 @@
-![Alt Text](https://drive.google.com/file/d/1kOYbE9tzTHf1lsNQPhQj88YH8E88GYyT/view?usp=share_link)
+![Alt Text](https://thumbnails-photos.amazon.com/v1/thumbnail/unS8zWYXQXGH4sCy7hiqiQ?viewBox=1018%2C468&ownerId=A2AYVMD0IY49XE)
