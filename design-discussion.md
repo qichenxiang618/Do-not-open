@@ -7,6 +7,7 @@ Design 1
 
 Pros:
 - This design has 2 child classes: CurrentJob and JobOffer which is advantageous because CurrentJob will be editable whereas a JobOffer object will not be
+
 Cons:
 - MainActivity class should have an attribute to store an array of JobOffer objects, and an attribute to store a CurrentJob object
 - Weight attributes should have default values
