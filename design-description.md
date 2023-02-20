@@ -5,10 +5,10 @@ When the app is started, the user is presented with the main menu, which allows 
 ## Answer 1
 
 This is realized by a MainMenu class which functions as the entry point of the system and contains the below 4 methods to perform those 4 operations. When a user opens this app, a MainMenu object will be created and the user interface will be shown which includes 4 buttons allowing the user to perform those 4 operations. Since this is a single user app, any user specific attributes will all be contained within this class.
-enterOrEditCurrentJob()
-enterJobOffer()
-adjustComparisonSettings()
-compareJobOffers()
+-enterOrEditCurrentJob()
+-enterJobOffer()
+-adjustComparisonSettings()
+-compareJobOffers()
 
 ## Requirement 2
 
