@@ -1,4 +1,4 @@
-![dog](/images/cute-dog-headshot.jpg)
+![dog](/../images/cute-dog-headshot.jpg)
 
 # Design Document
 
